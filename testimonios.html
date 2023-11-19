@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Día del Pijama</title>
+  <link rel="stylesheet" href="./styles/output.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    input[type="checkbox"]:checked + .card .card-content {
+      display: block;
+    }
+  </style>
+</head>
+<body class="font-test bg-greyish2 flex flex-col min-h-screen">
+  <header class="text-body w-full fixed top-0">
+    <div class="flex p-5 bg-greyish3 justify-around items-center flex-wrap">
+      <h2 class="font-bold tracking-wider text-2xl">Día del <span class="font-header">pijama</span></h2>
+      <nav>
+        <ul class="flex flex-row gap-5 flex-wrap">
+          <li><a href="index.html" class="text-nav hover:underline hover:underline-offset-2 hover:decoration-orange hover:text-hoverNav"> Inicio </a></li>
+          <li><a href="acogida.html" class="text-nav hover:underline hover:underline-offset-2 hover:decoration-orange hover:text-hoverNav"> Acogida </a></li>
+          <li><a href="aseaf.html" class="text-nav hover:underline hover:underline-offset-2 hover:decoration-orange hover:text-hoverNav"> ASEAF </a></li>
+          <li><a href="testimonios.html" class="text-nav hover:underline hover:underline-offset-2 hover:decoration-orange hover:text-hoverNav"> Testimonios</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="flex-1">
+    <section>
+      <div class="bg-greyish p-24 flex gap-4 justify-center text-center md:p-20 max-sm:p-10 max-sm:mt-20">
+        <div class="flex flex-col gap-7 items-center">
+          <h1 class="text-6xl font-semibold leading-tight text-body md:text-5xl max-sm:text-3xl">Testimonios</h1>
+          <h2 class="text-body text-3xl max-sm:text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange to-purple lg:whitespace-pre">Experiencias Reales en Acogimiento Familiar </h2>
+          <p class="text-xl max-sm:text-base font-light text-simple">En esta página te sumergirás en relatos auténticos que revelan el impacto significativo que el acogimiento ha tenido en la vida de niños, jóvenes y familias. Cada testimonio cuenta una historia única de amor, superación y crecimiento, ilustrando el poder transformador de abrir nuestros hogares y corazones.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <input type="checkbox" id="experiencia-familia" class="hidden" />
+      <div class="card checked:block">
+        <label for="experiencia-familia" class="flex justify-center bg-purple p-4 w-full gap-6 cursor-pointer">
+          <h3 class="text-3xl md:text-2xl max-sm:text-xl font-semibold text-end leading-tight">Experiencia de acogimiento por una familia acogedora</h3>
+          <img src="./assets/img/arrow.svg" alt="flecha" class="w-11 h-11 flex md:w-9 md:h-9">
+        </label>
+        <div class="checked:flex px-24 md:px-12 max-sm:px-5 max-sm:py-3 checked:gap-4 py-9 checked:flex-col bg-greyish2 card-content hidden">
+          <h3 class="text-2xl md:text-xl max-sm:text-lg font-semibold lg:p-5 p-2">«Mi experiencia en un minuto», por <span class="font-header text-purple">A. Alba</span></h3>
+          <div class="bg-greyish rounded-2xl p-10 flex flex-col gap-5 max-sm:p-5">
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">Hace más de 20 años, en mi último año de carrera, conocí a través de AVAF lo que era el acogimiento familiar. Fui voluntario dando apoyo escolar a un niño en acogida permanente. Aún recuerdo su nombre. La experiencia fue muy bonita y enriquecedora. Años después me informé en AVAF con la idea de acoger pero mi pareja no lo tenía claro. Ahora, de nuevo, en AVAF contando mi experiencia. Supongo que en la vida, algunas cosas se dan cuando llega el momento. En este caso, fue a finales del 2018 cuando me crucé con ACARONAR y empecé el proceso. Solicité acogida temporal y permanente. Todo fue más rápido de lo que me habían contado. Días después de recibir la idoneidad ya me estaban llamando. Tienes el fin de semana para pensártelo. «Es acogida permanente» me dijeron. Bueno, eso y poco más. La verdad es que no tuve dudas. Así que llamé a mi familia y amigos para contarles que iba a acoger a un niño de 11 años. Pronto hará un año de todo esto. 
+              La vida me ha cambiado por completo. No creo que fuera consciente de lo que me esperaba ni de la energía que iba a tener que poner en este proyecto, desde luego el más importante de mi vida. Han sido meses muy intensos en los que hemos tenido que superar muchos retos y de gestionar muchas emociones, algunas vividas por primera vez por el niño y por mí. Todo esto además con lo que ha supuesto el confinamiento. 24 horas, él y yo. De repente, mucho de lo conseguido ahora no vale, hay que cambiar rutinas, poner nuevas normas o ser más flexible. Y por supuesto, tener más paciencia y comprensión sí cabe que antes, cosa que me ha costado mucho en algunos momentos, la verdad.
+            </p>
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">La vida me ha cambiado por completo. No creo que fuera consciente de lo que me esperaba ni de la energía que iba a tener que poner en este proyecto, desde luego el más importante de mi vida. Han sido meses muy intensos en los que hemos tenido que superar muchos retos y de gestionar muchas emociones, algunas vividas por primera vez por el niño y por mí. Todo esto además con lo que ha supuesto el confinamiento. 24 horas, él y yo. De repente, mucho de lo conseguido ahora no vale, hay que cambiar rutinas, poner nuevas normas o ser más flexible. Y por supuesto, tener más paciencia y comprensión sí cabe que antes, cosa que me ha costado mucho en algunos momentos, la verdad.
+            </p>
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">Ha sido duro. Por supuesto, el vínculo que ya era fuerte antes, se ha terminado de consolidar.  A los tres días de estar conmigo empezó a llamarme papá y un día me preguntó si yo iba a ser su papá para siempre. Espero poder conseguirlo. Aún tenemos mucho que descubrir.  
+            </p>
+            <p class="font-bold text-lg max-sm:text-base text-body"> A. Alba, papá de acogida </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <input type="checkbox" id="experiencia-adolescente" class="hidden" />
+      <div class="card">
+        <label for="experiencia-adolescente" class="flex justify-center bg-orange p-4 w-full gap-6 cursor-pointer">
+          <h3 class="text-3xl md:text-2xl max-sm:text-xl font-semibold text-end leading-tight">Experiencia de acogimiento por una persona acogida</h3>
+          <img src="./assets/img/arrow.svg" alt="flecha" class="w-11 h-11 flex md:w-9 md:h-9">
+        </label>
+        <div class="checked:flex px-24 md:px-12 max-sm:px-5 max-sm:py-3 checked:gap-4 py-9 checked:flex-col bg-greyish2 card-content hidden">
+          <h3 class="text-2xl md:text-xl max-sm:text-lg font-semibold lg:p-5 p-2">«Para mí fue un bien ser acogida», por <span class="font-header text-orange">Dayhanni</span></h3>
+          <div class="bg-greyish rounded-2xl p-10 flex flex-col gap-5 max-sm:p-5">
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">Me presento. Soy Dayhanni, tengo 19 años y soy madre de una niña de 4 años que se llama Sheila.</p>
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">Después de 3 años viviendo en España, reagrupada por mi padre, en el 2007 volví a mi país, República Dominicana, con mi madre y mis hermanos. Como ya tenía la residencia legal en España, ese año mi familia había decidido que estudiase en Santo Domingo. Era noviembre cuando mi madre me empezó a encontrar rara y vio que mi cuerpo estaba cambiando. Yo también me sentía rara. Un día mi madre me preguntó “¿no estarás embarazada?” y yo le respondí que no. Aun así mi madre no se fiaba. Me llevaron al médico, me hicieron una ecografía y me dijeron que estaba embarazada de dos meses. Pensé “¡madre mía, qué voy hacer ahora!”. Yo tenía solo 14 años.</p>
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">La noticia cayó como un jarro de agua fría en mi familia. Mi madre se puso a llorar pensando que no quería eso para mí. Yo tenía miedo del momento en que se enterara mi padre puesto que tenía miedo de que me matara. Todo el mundo a mi alrededor estaba impactado. Ante esta noticia, había que tomar decisiones.</p>
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">La primera estaba clara: seguir con el embarazo. Segunda decisión: quedarme en mi país o volver a España, donde había estado los tres años anteriores. Mi padre llamó a la familia del chico. Él al principio negó todo pero luego mis padres decidieron que volviera a España para vivir en la casa del chico. Cuando llegué a Madrid, como yo no quería vivir en la casa de este chico, mi padre me acompañó al CEPI hispano-dominicano para que me ayudaran. Allí me propusieron ir a Familias para la Acogida para conocerlo. Tuve una entrevista con Belén, Virginia, mi padre, la psicóloga del CEPI, María, y yo. Me gustó la idea de poder vivir en una familia de acogida en vez de un centro. Quedamos pendiente de que se ofreciera una familia para acogerme.</p>
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">Durante ese mes fui conociendo a María. Me acompañaba al curso de preparación al parto, a los médicos, comíamos juntas… me cuidaba. Se preocupaba por cómo me sentía y cómo estaba.
+              Un día vino Belén al CEPI para comunicarme a mí y a mi padre, que María y su marido Rafa, iban a ser mi familia de acogida.
+              Empecé a vivir con ellos a partir de mayo del 2008, yo ya estaba de seis meses de embarazo.
+              Los meses pasaron y llegó la hora de dar a luz. María me acompañó en el parto y Rafa estaba afuera esperando noticias. Sheila nació el 21 de agosto del 2008 a las 23:45 horas. Fue la experiencia más bonita que he tenido.</p>
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">Sheila fue creciendo y yo seguía estudiando. Con mucho esfuerzo conseguí sacarme la secundaria. Comencé a estudiar un grado medio de administración que me gustó mucho y tuve mis primeras prácticas laborales.
+              El año pasado fue un año de fuertes emociones, porque vino a vivir mi madre a España, por la muerte de los abuelos de María, el fallecimiento repentino de mi primo y el nacimiento de un nuevo primito del que María será la madrina. Me sorprende enormemente la relación que se ha podido dar entre mi familia biológica y de acogida.
+            </p>
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">Después de un año despistada preparando la prueba de acceso al grado superior y de darme cuenta que había perdido el tiempo, pensé darme otra oportunidad. Este año, de nuevo, estoy estudiando la prueba de acceso, ilusionada preparando las tres asignaturas en una academia.</p>
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">Para mí fue un bien ser acogida puesto que han cambiado muchas cosas en mi vida. Ahora tengo dos padres y dos madres, eso es un privilegio y los quiero mucho. Nació Sheila mi hija, que es lo mejor que me ha pasado en mi vida, a pesar de que fue una decisión difícil para mí. También poder seguir con mis estudios, a lo que mis padres de acogida me han ayudado mucho.Por otra parte, esto también ha sido un bien en mi relación con mi madre y con mi padre, que antes no era del todo buena y ahora ha mejorado mucho.</p>
+            <p class="font-medium text-simple max-sm:text-sm leading-relaxed">Por la experiencia que yo he vivido me he dado cuenta de la importancia que tiene que existan familias que sean capaces de acoger niños que no pueden estar con sus familias biológicas para cuidar de ellos y ayudarles a crecer.</p>
+            <p class="font-bold text-lg max-sm:text-base text-body">Dayhanni, persona acogida </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section>
+    <div class="bg-greyish2 p-5 mx-9 mb-9 flex items-center gap-5 max-sm:m-4 max-sm:flex-wrap">
+      <p class="text-simple text-2xl font-semibold max-sm:text-lg">Fuentes: </p> 
+      <a class="text-simple text-lg font-medium max-sm:text-base hover:text-body relative block after:block after:content-[''] after:absolute after:h-[2px] after:bg-body after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="https://avaf.org.es/mi-experiencia-en-un-minuto/">Experiencia Familia Acogedora</a>
+      <a class="text-simple text-lg font-medium max-sm:text-base hover:text-body relative block after:block after:content-[''] after:absolute after:h-[2px] after:bg-body after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="https://www.familias-acogida.es/para-mi-fue-un-bien-ser-acogida/">Experiencia Persona Acogida</a>
+    </div>
+  </section>
+  <footer>
+    <div class="text-footer flex lg:p-10 bg-body lg:justify-between justify-center items-center flex-wrap gap-4 w-full bottom-0 p-5">
+        <p class="lg:pl-5">© Marina del Carmen Aix Gómez</p>
+      <div class="flex items-center lg:pr-5">
+        <p class="pr-5">Síguenos en nuestras redes:</p>
+        <div class="flex gap-4">
+          <a href=""><img src="./assets/img/facebook.svg" alt="facebook-icon" class="w-8 hover:animate-bounce"></a>
+          <a href=""><img src="./assets/img/instagram.svg" alt="instagram-icon" class="w-8 hover:animate-bounce"></a>
+          <a href=""><img src="./assets/img/youtube.svg" alt="youtube-icon" class="w-8 hover:animate-bounce"></a>
+          <a href=""><img src="./assets/img/twitter.svg" alt="twitter-icon" class="w-8 hover:animate-bounce"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
